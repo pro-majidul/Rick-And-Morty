@@ -1,0 +1,5 @@
+ .header{
+    background-image: url("./assets/sideImage.png") , url("./assets/sideImage.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+  }
