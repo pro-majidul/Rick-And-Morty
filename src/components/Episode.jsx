@@ -17,13 +17,16 @@ const Episode = () => {
         fetchEpisodes();
     }, [])
 
-    
+
     return (
         <section className='relative z-50'>
             <p className='text-2xl text-[#FFFFFF]'>Episodes </p>
             <div className='py-2 my-5 px-2'>
                 <GroupSlide episodes={episodes} ></GroupSlide>
             </div>
+
+            
+
         </section>
     );
 };
