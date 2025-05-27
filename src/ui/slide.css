@@ -1,0 +1,4 @@
+.clip-card {
+  clip-path: polygon(100% 0, 100% 77%, 76% 100%, 0 100%, 0 0);
+  -webkit-clip-path: polygon(100% 0, 100% 77%, 76% 100%, 0 100%, 0 0);
+}

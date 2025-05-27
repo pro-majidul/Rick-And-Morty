@@ -22,12 +22,14 @@ const MeetCost = () => {
 
     return (
         <section>
-            <div className='flex items-center justify-between px-1'>
+            <div className='flex items-center justify-between px-2'>
                 <p className='text-2xl text-[#FFFFFF]'>Meet the cast</p>
-                <div></div>
-                <button className='btn btn-outline border-[#9DFE00]'>View All</button>
+                
+                <button className='btn btn-outline border-[#9DFE00] cursor-pointer z-50'>View All</button>
             </div>
-            <Slider characters={characters} ></Slider>
+            <div className='py-2 my-5 px-2'>
+                <Slider characters={characters} ></Slider>
+            </div>
 
         </section>
     );

@@ -57,7 +57,7 @@ const Banner = () => {
                     </p>
 
                     {/* Button */}
-                    <button className="border rounded-full px-6 py-3 bg-gradient-to-l from-[#9DFE00] to-[#14D9E6] cursor-pointer flex items-center justify-center gap-2 text-[#FBF8F3] hover:from-[#9dfe00ce] hover:to-[#14d8e6bd]">
+                    <button className="border rounded-full px-6 py-3 bg-gradient-to-r from-[#9DFE00] to-[#14D9E6] cursor-pointer flex items-center justify-center gap-2 text-[#FBF8F3] hover:from-[#9dfe00ce] hover:to-[#14d8e6bd]">
                         <MdOutlinePlayCircleOutline className="text-xl" />
                         Watch Now
                     </button>
