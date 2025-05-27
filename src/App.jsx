@@ -4,6 +4,7 @@ import Banner from './components/Banner'
 import MeetCost from './components/MeetCost'
 import SpiralElement from './assets/SpiralElement.png'
 import Episode from './components/Episode'
+import Location from './components/Location'
 function App() {
 
   return (
@@ -63,6 +64,8 @@ function App() {
           </div>
 
         </div>
+        <Location></Location>
+
       </main>
     </section>
   )

@@ -1,9 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Slider from '../ui/Slider';
-
-
-
-
 const MeetCost = () => {
     const [characters, setCharacters] = useState([])
     useEffect(() => {
