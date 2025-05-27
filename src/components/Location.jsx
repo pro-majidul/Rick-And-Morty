@@ -16,10 +16,9 @@ const Location = () => {
 
         fetchlocations();
     }, [])
-    console.log(locations)
     return (
         <section className='relative z-50'>
-            <p className='text-2xl text-[#FFFFFF]'>Locations </p>
+            <p className='text-2xl text-[#FFFFFF] px-2'>Locations </p>
             <div className='py-2 my-5 px-2'>
                 <GroupLocation locations={locations} ></GroupLocation>
             </div>

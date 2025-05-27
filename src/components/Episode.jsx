@@ -20,7 +20,7 @@ const Episode = () => {
 
     return (
         <section className='relative z-50'>
-            <p className='text-2xl text-[#FFFFFF]'>Episodes </p>
+            <p className='text-2xl text-[#FFFFFF] px-2'>Episodes </p>
             <div className='py-2 my-5 px-2'>
                 <GroupSlide episodes={episodes} ></GroupSlide>
             </div>
