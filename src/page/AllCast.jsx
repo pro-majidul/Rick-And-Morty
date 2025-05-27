@@ -25,8 +25,28 @@ const AllCast = () => {
 
             </div>
 
+
+
+
             <Navbar></Navbar>
-            <div className='container w-full mx-auto p-2'>
+            <div className='container w-full mx-auto p-2 relative py-10'>
+
+                <div class="absolute top-[50%] -left-10 -translate-x-1/2 -translate-y-1/2">
+                    <svg viewBox="0 0 100 100" class="w-4 h-4 text-[#15BFFD] fill-current">
+                        <polygon points="50,5 61,39 98,39 67,61 79,95 50,75 21,95 33,61 2,39 39,39" />
+                    </svg>
+                </div>
+
+                <div class="absolute top-[55%] right-0 -translate-x-1/2 -translate-y-1/2">
+                    <svg viewBox="0 0 100 100" class="w-4 h-4 text-[#15BFFD] fill-current">
+                        <polygon points="50,5 61,39 98,39 67,61 79,95 50,75 21,95 33,61 2,39 39,39" />
+                    </svg>
+                </div>
+                <div class="absolute bottom-0 left-[20%] -translate-x-1/2 -translate-y-1/2">
+                    <svg viewBox="0 0 100 100" class="w-2 h-2 text-[#15BFFD] fill-current">
+                        <polygon points="50,5 61,39 98,39 67,61 79,95 50,75 21,95 33,61 2,39 39,39" />
+                    </svg>
+                </div>
                 <h3 className='md:text-5xl text-2xl font-bold text-[#14D9E6]'>All Cast</h3>
                 <div className='grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 gap-5 space-y-2 my-5 py-5'>
                     {characters.map(character => <div className="relative md:w-56">
