@@ -8,11 +8,10 @@ import 'swiper/css/navigation';
 // import './slide.css'
 // import required modules
 import { Navigation } from 'swiper/modules';
-
-const GroupSlide = ({ episodes }) => {
+const GroupLocation = ({locations}) => {
     return (
-        <>
-            {episodes?.length > 0 ? (
+         <>
+            {locations?.length > 0 ? (
                 <Swiper
                     navigation={true}
                     modules={[Navigation]}
@@ -31,16 +30,16 @@ const GroupSlide = ({ episodes }) => {
                         },
                     }}
                 >
-                    {episodes.map(character => (
-                        <SwiperSlide key={character.id}>
+                    {locations.map(location => (
+                        <SwiperSlide key={location.id}>
                             <div className="relative md:w-56">
                                 {/* Gradient Border Wrapper */}
                                 <div className="p-[1px] rounded-xl bg-gradient-to-l from-[rgba(132,247,41,0.7)] to-[rgba(21,191,253,0.7)] clip-card">
 
                                     {/* Actual Card Content */}
                                     <div className="bg-[#2d2c35]  rounded-[10px] clip-card p-4 text-white">
-                                        <p>{character.episode}</p>
-                                        <p className="mt-2 font-semibold text-sm">{character.name}</p>
+                                        <p>#{location.id}</p>
+                                        <p className="mt-2 font-semibold text-sm">{location.name}</p>
                                     </div>
                                 </div>
                             </div>
@@ -55,4 +54,4 @@ const GroupSlide = ({ episodes }) => {
     );
 };
 
-export default GroupSlide;
+export default GroupLocation;

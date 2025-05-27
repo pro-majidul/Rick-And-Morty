@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import GroupLocation from '../ui/GroupLocation';
 
 const Location = () => {
     const [locations, setLocations] = useState([])
@@ -15,13 +16,13 @@ const Location = () => {
 
         fetchlocations();
     }, [])
-
+    console.log(locations)
     return (
         <section className='relative z-50'>
             <p className='text-2xl text-[#FFFFFF]'>Locations </p>
-            {/* <div className='py-2 my-5 px-2'>
-                <GroupSlide episodes={episodes} ></GroupSlide>
-            </div> */}
+            <div className='py-2 my-5 px-2'>
+                <GroupLocation locations={locations} ></GroupLocation>
+            </div>
         </section>
     );
 };
