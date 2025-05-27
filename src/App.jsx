@@ -1,6 +1,8 @@
 import './App.css'
 import backgrounImage from '../src/assets/bgImage.png'
 import Banner from './components/Banner'
+import MeetCost from './components/MeetCost'
+import SpiralElement from './assets/SpiralElement.png'
 function App() {
 
   return (
@@ -19,10 +21,20 @@ function App() {
       <div className='w-[356px] h-[356px] border absolute bg-[#2A3E84] -right-[80px] blur-[150px] -top-[80px]'>
 
       </div>
+
+      <img
+        src={SpiralElement}
+        alt="ractangle"
+        className='absolute bottom-0 right-0  h-auto '
+      />
+
       <header>
         <Banner></Banner>
       </header>
+      <main className='container mx-auto w-full'>
 
+        <MeetCost></MeetCost>
+      </main>
     </section>
   )
 }
