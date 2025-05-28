@@ -12,7 +12,7 @@ import { HiMiniBarsArrowUp } from "react-icons/hi2";
 const SingleCast = () => {
 
     const CastData = useLoaderData();
-    console.log(CastData)
+    // console.log(CastData)
     return (
         <section
             style={{

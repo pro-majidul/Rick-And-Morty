@@ -1,10 +1,8 @@
 import './App.css'
 import backgrounImage from '../src/assets/bgImage.png'
-
 import SpiralElement from './assets/SpiralElement.png'
 import Home from './page/Home'
 import { Outlet } from 'react-router-dom'
-
 function App() {
 
   return (

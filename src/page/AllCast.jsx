@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const AllCast = () => {
     const characters = CastData();
-    console.log(characters);
+    // console.log(characters);
 
     return (
         <section

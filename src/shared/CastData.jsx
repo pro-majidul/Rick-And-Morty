@@ -8,7 +8,7 @@ const CastData = () => {
             try {
                 const data = await fetch('https://rickandmortyapi.com/api/character');
                 const result = await data.json();
-                setCharacters(result.results); // <-- ঠিক এইখানে
+                setCharacters(result.results); 
             } catch (error) {
                 console.error("Failed to fetch characters:", error);
             }
