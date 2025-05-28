@@ -1,6 +1,6 @@
 import { MdOutlinePlayCircleOutline } from "react-icons/md";
 import bubble from '../assets/bubble.png';
-import gun from '../assets/gun.png';
+import gun from '../assets/Gun.png';
 import portal from '../assets/portal.png';
 import ractangle from '../assets/Rectangle.png';
 import Navbar from "../shared/Navbar";
