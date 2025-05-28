@@ -1,15 +1,15 @@
 import { MdOutlinePlayCircleOutline } from "react-icons/md";
-import logo from '../assets/Logo.png';
 import bubble from '../assets/bubble.png';
 import gun from '../assets/gun.png';
 import portal from '../assets/portal.png'
 import ractangle from '../assets/Rectangle.png'
+import Navbar from "../shared/Navbar";
 const Banner = () => {
     return (
         <section>
-            <nav className='lg:w-1/2 mx-auto w-full z-50 h-20 flex items-center justify-center py-5 my-5'>
-                <img className=' h-full opacity-100' src={logo} alt="" />
-            </nav>
+            
+                <Navbar></Navbar>
+            
             <header className='lg:w-8/12 mx-auto w-full p-4 relative '>
                 <div className="absolute bottom-0 right-0  flex items-baseline">
                     <img className="lg:h-72 h-32 w-auto" src={gun} alt="gun" />
