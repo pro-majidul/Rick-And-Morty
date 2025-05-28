@@ -1,5 +1,5 @@
 import { MdOutlinePlayCircleOutline } from "react-icons/md";
-import logo from '../assets/logo.png';
+import logo from '../assets/Logo.png';
 import bubble from '../assets/bubble.png';
 import gun from '../assets/gun.png';
 import portal from '../assets/portal.png'
