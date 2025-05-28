@@ -26,8 +26,10 @@ const SingleCast = () => {
             {/* Background Blur Elements */}
             <div className='w-[356px] h-[356px] absolute bg-[#2A3E84] -left-[80px] -bottom-[80px] blur-[150px]' />
             <div className='w-[356px] h-[356px] absolute bg-[#2A3E84] -right-[80px] blur-[150px] top-[30%] ' />
+            <div>
 
-            <Navbar />
+                <Navbar />
+            </div>
 
             <div className='lg:flex items-center space-y-5 justify-center gap-20 container mx-auto w-full px-2'>
                 <div className='space-y-5'>
