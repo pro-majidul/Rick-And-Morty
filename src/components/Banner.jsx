@@ -29,20 +29,20 @@ const Banner = () => {
                         {/* Background Gradient Blur */}
                         <div className="absolute inset-0 bg-gradient-to-r from-[#9DFE00] via-[#14D9E6] to-[#ffff] blur-3xl lg:opacity-60 opacity-100 z-0"></div>
                         {/* Text with Portal Image */}
-                        <h3 className='relative z-20 flex items-center justify-center gap-2 text-white lg:text-8xl text-4xl font-bold uppercase'>
+                        <h3 className='relative z-20 flex items-center justify-center gap-2 text-white lg:text-8xl text-3xl font-bold uppercase'>
                             <span>The</span>
                             <img className='h-10 lg:h-24 w-auto' src={portal} alt="portal" />
                             <span className='bg-gradient-to-r from-[#9DFE00] to-[#14D9E6] bg-clip-text text-transparent'>Rick &</span>
                         </h3>
                     </div>
                     {/* Subtitle */}
-                    <p className='uppercase text-white lg:text-8xl text-4xl font-bold z-20'>
+                    <p className='uppercase text-white lg:text-8xl text-3xl font-bold z-20'>
                         <span className='bg-gradient-to-r from-[#9DFE00] to-[#14D9E6] bg-clip-text text-transparent'>MORTY</span> WIKI
                     </p>
                 </div>
-                <div className="lg:flex lg:flex-row-reverse lg:items-center lg:justify-between lg:w-6/12 w-full mx-auto mt-6 space-y-6 lg:space-y-0">
+                <div className="lg:flex lg:flex-row-reverse lg:items-center lg:justify-between md:w-6/12 w-full mx-auto mt-6 space-y-6 lg:space-y-0">
                     {/* Description */}
-                    <p className="lg:w-8/12 w-full text-[#14D9E6] font-semibold lg:text-left">
+                    <p className="lg:w-8/12 w-full  text-[#14D9E6] text-sm font-semibold lg:text-left">
                         Brilliant but boozy scientist Rick hijacks his fretful <br />
                         teenage grandson, Morty, for wild escapades <br />
                         in other worlds and alternate dimensions.

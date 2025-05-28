@@ -1,2 +1,112 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@font-face {
+  font-family: "TT-Travels";
+  src: url("/fonts/tt_travels/TT Travels Trial Thin.otf");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT-Travels";
+  src: url("/fonts/tt_travels/TT Travels Trial Thin Italic.otf");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TT-Travels";
+  src: url("/fonts/tt_travels/TT Travels Trial Light.otf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT-Travels";
+  src: url("/fonts/tt_travels/TT Travels Trial Light Italic.otf");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TT-Travels";
+  src: url("/fonts/tt_travels/TT Travels Trial Regular.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT-Travels";
+  src: url("/fonts/tt_travels/TT Travels Trial Regular Italic.otf");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TT-Travels";
+  src: url("/fonts/tt_travels/TT Travels Trial Medium.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT-Travels";
+  src: url("/fonts/tt_travels/TT Travels Trial Medium Italic.otf");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TT-Travels";
+  src: url("/fonts/tt_travels/TT Travels Trial DemiBold.otf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT-Travels";
+  src: url("/fonts/tt_travels/TT Travels Trial DemiBold Italic.otf");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TT-Travels";
+  src: url("/fonts/tt_travels/TT Travels Trial Bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT-Travels";
+  src: url("/fonts/tt_travels/TT Travels Trial Bold Italic.otf");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TT-Travels";
+  src: url("/fonts/tt_travels/TT Travels Trial ExtraBold.otf");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT-Travels";
+  src: url("/fonts/tt_travels/TT Travels Trial ExtraBold Italic.otf");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TT-Travels";
+  src: url("/fonts/tt_travels/TT Travels Trial Black.otf");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT-Travels";
+  src: url("/fonts/tt_travels/TT Travels Trial Black Italic.otf");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "TT-Travels";
+  src: url("/fonts/tt_travels/TT Travels Trial ExtraLight.otf");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT-Travels";
+  src: url("/fonts/tt_travels/TT Travels Trial ExtraLight Italic.otf");
+  font-weight: 200;
+  font-style: italic;
+}
+*{font-family: "TT-Travels",sans-serif;}
