@@ -1,8 +1,4 @@
-
-
-import React from 'react';
 import backgrounImage from '../assets/Imageoverlay.png';
-import logo from '../assets/logo.png';
 import Navbar from '../shared/Navbar';
 import CastData from '../shared/CastData';
 import { Link } from 'react-router-dom';
@@ -51,7 +47,7 @@ const AllCast = () => {
                 <h3 className='lg:text-5xl text-2xl font-bold text-[#14D9E6]'>All Cast</h3>
 
                 {/* Cast Grid */}
-                <div className='grid lg:grid-cols-5 lg:grid-cols-3 grid-cols-2 gap-5 my-5 py-5'>
+                <div className='grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 gap-5 my-5 py-5'>
                     {characters.map((character) => (
                         <div key={character.id} className="relative lg:w-56">
                             <div className="p-[1px] rounded-xl bg-gradient-to-l from-[rgba(132,247,41,0.7)] to-[rgba(21,191,253,0.7)] clip-card">
