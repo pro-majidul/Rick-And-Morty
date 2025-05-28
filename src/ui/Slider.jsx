@@ -35,7 +35,7 @@ const Slider = ({ characters }) => {
                     {characters.map(character => (
                         <SwiperSlide key={character.id}>
 
-                            <div className="relative md:w-56">
+                            <div className="relative lg:w-56">
                                 {/* Clipped Card Container */}
                                 <div className="p-[1px] rounded-xl bg-gradient-to-l from-[rgba(132,247,41,0.7)] to-[rgba(21,191,253,0.7)] clip-card">
                                     <div className="bg-[#2d2c35]  rounded-[10px] clip-card p-4 text-white">

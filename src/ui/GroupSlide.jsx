@@ -33,12 +33,12 @@ const GroupSlide = ({ episodes }) => {
                 >
                     {episodes.map(character => (
                         <SwiperSlide key={character.id}>
-                            <div className="relative md:w-56">
+                            <div className="relative lg:w-56">
                                 {/* Gradient Border Wrapper */}
                                 <div className="p-[1px] rounded-xl bg-gradient-to-l from-[rgba(132,247,41,0.7)] to-[rgba(21,191,253,0.7)] clip-card">
 
                                     {/* Actual Card Content */}
-                                    <div className="bg-[#2d2c35]  rounded-[10px] clip-card md:p-4 p-2 text-white">
+                                    <div className="bg-[#2d2c35]  rounded-[10px] clip-card lg:p-4 p-2 text-white">
                                         <p>{character.episode}</p>
                                         <p className="mt-2 font-semibold text-sm">{character.name}</p>
                                     </div>
