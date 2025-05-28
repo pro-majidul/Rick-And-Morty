@@ -4,7 +4,7 @@ import status from '../assets/Status.svg'
 import species from '../assets/Species.svg'
 import gender from '../assets/Gender.svg'
 import origin from '../assets/origin.svg'
-import location from '../assets/location.svg'
+import location from '../assets/Location.svg'
 import redirect from '../assets/Redirect.svg'
 import Navbar from '../shared/Navbar';
 import { HiMiniBarsArrowUp } from "react-icons/hi2";
